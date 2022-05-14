@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Color Pallete</title>
+        <style>
+            @import url(https://fonts.googleapis.com/css?family=Red+Hat+Display:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+            * {
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                font-family: "Red Hat Display", sans-serif;
+            }
+
+            body {
+                background-color: #dadada;
+                height: 100vh;
+                width: 100%;
+            }
+
+            section {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+
+                -ms-flex-wrap: wrap;
+
+                flex-wrap: wrap;
+                -webkit-box-align: start;
+                -ms-flex-align: start;
+                align-items: flex-start;
+                -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                justify-content: flex-start;
+            }
+
+            .box {
+                width: 33.333%;
+                border: none;
+                margin-bottom: 0.28rem;
+                color: #f2f2f2;
+                font-weight: 800;
+            }
+
+            .black {
+                color: #000;
+            }
+
+            .color-box {
+                width: 100%;
+                height: 130px;
+                border: none;
+            }
+
+            .box p {
+                margin-top: -1.6rem;
+                margin-left: 0.4rem;
+            }
+
+            .box:nth-child(1) .color-box {
+                background-color: #f89f5b;
+            }
+            .box:nth-child(2) .color-box {
+                background-color: #e53f71;
+            }
+            .box:nth-child(3) .color-box {
+                background-color: #9c3587;
+            }
+            .box:nth-child(4) .color-box {
+                background-color: #653780;
+            }
+            .box:nth-child(5) .color-box {
+                background-color: #3f1651;
+            }
+            .box:nth-child(6) .color-box {
+                background-color: #141519;
+            }
+            .box:nth-child(7) .color-box {
+                background-color: #1e252f;
+            }
+            .box:nth-child(8) .color-box {
+                background-color: #262e38;
+            }
+
+            .box:nth-child(9) .color-box {
+                background-color: #7c828c;
+            }
+
+            .box:nth-child(10) .color-box {
+                background-color: #f2f2f2;
+            }
+
+            @media screen and (max-width: 600px) {
+                .box {
+                    width: 50%;
+                    margin-bottom: 0.25rem;
+                }
+
+                .color-box {
+                    height: 190px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="box">
+                <div class="color-box"></div>
+                <p>#f89f5b</p>
+            </div>
+
+            <div class="box">
+                <div class="color-box"></div>
+                <p>#e53f71</p>
+            </div>
+
+            <div class="box">
+                <div class="color-box"></div>
+                <p>#9c3587</p>
+            </div>
+
+            <div class="box">
+                <div class="color-box"></div>
+                <p>#653780</p>
+            </div>
+
+            <div class="box">
+                <div class="color-box"></div>
+                <p>#3f1651</p>
+            </div>
+
+            <div class="box">
+                <div class="color-box"></div>
+                <p>#141519</p>
+            </div>
+
+            <div class="box">
+                <div class="color-box"></div>
+                <p>#1e252f</p>
+            </div>
+
+            <div class="box">
+                <div class="color-box"></div>
+                <p>#262e38</p>
+            </div>
+
+            <div class="box black">
+                <div class="color-box"></div>
+                <p>#7c828c</p>
+            </div>
+
+            <div class="box black">
+                <div class="color-box"></div>
+                <p>#f2f2f2</p>
+            </div>
+        </section>
+    </body>
+</html>

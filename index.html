@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦋</text></svg>"
+        />
+        <link rel="shortcut icon" href="favicon.ico" type="image" />
+        <link rel="stylesheet" href="./stylesheet/style.css" />
+        <title>Rating Component</title>
+    </head>
+
+    <body>
+        <section class="rating-component">
+            <a href="./palette.html">
+                <div class="icon">
+                    <img src="./assets/star.png" alt="star" draggable="false" />
+                </div>
+            </a>
+            <div class="block" id="spn-1">
+                <h2>Avalie nossos serviços</h2>
+                <p>
+                    Dar a sua opinião é importante para nós, porque ajuda a melhorar o serviço que prestamos a todos os utilizadores, e, ao fazê-lo, você torna o ambiente mais confortável para todos.
+                </p>
+                <ul class="list">
+                    <li class="disable" onclick="rating(1)" id="1">1</li>
+                    <li class="disable" onclick="rating(2)" id="2">2</li>
+                    <li class="disable" onclick="rating(3)" id="3">3</li>
+                    <li class="disable" onclick="rating(4)" id="4">4</li>
+                    <li class="disable" onclick="rating(5)" id="5">5</li>
+                </ul>
+                <button type="button" onclick="submit()">Submit</button>
+            </div>
+            <div class="block hide" id="spn-2">
+                <h2>Thank You!</h2>
+            </div>
+        </section>
+
+        <script src="./javascript/main.js"></script>
+    </body>
+</html>
