@@ -29,7 +29,7 @@ body {
 
 div.block {
     overflow: hidden;
-    max-height: 360px;
+    max-height: 420px;
     -webkit-transition: max-height 1s ease-in-out;
     -o-transition: max-height 1s ease-in-out;
     transition: max-height 1s ease-in-out;
